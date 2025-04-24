@@ -1,6 +1,8 @@
 name: Threatbook Auto Workflow
 
 on:
+  watch:
+    types: stared
   push:
     branches:
       - main
